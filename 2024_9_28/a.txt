@@ -1,0 +1,5 @@
+客户端，这是我发给你的文件
+ qint64 payloadSize = 1024*1; //每一帧发送1024*64个字节，控制每次读取文件的大小，从而传输速度
+qint64 bytesWritten=0;//已经发送的字节数
+
+waitForBytesWritten()   bytesAvailable()
